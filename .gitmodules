@@ -1,3 +1,6 @@
 [submodule "tool-template"]
 	path = tool-template
 	url = https://github.com/biopet/tool-template.git
+[submodule "fastq-splitter"]
+	path = fastq-splitter
+	url = https://github.com/biopet/fastq-splitter.git
