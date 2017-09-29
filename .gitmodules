@@ -1,0 +1,3 @@
+[submodule "tool-template"]
+	path = tool-template
+	url = https://github.com/biopet/tool-template.git
