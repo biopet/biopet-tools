@@ -4,3 +4,6 @@
 [submodule "fastq-splitter"]
 	path = fastq-splitter
 	url = https://github.com/biopet/fastq-splitter.git
+[submodule "biopet-summary-tool"]
+	path = biopet-summary-tool
+	url = https://github.com/biopet/biopet-summary-tool.git
