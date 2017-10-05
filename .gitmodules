@@ -10,3 +10,6 @@
 [submodule "squishbed"]
 	path = squishbed
 	url = https://github.com/biopet/squishbed.git
+[submodule "refflatsstats"]
+	path = refflatsstats
+	url = https://github.com/biopet/refflatsstats.git
