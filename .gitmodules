@@ -13,3 +13,6 @@
 [submodule "refflatsstats"]
 	path = refflatsstats
 	url = https://github.com/biopet/refflatsstats.git
+[submodule "vcfstats"]
+	path = vcfstats
+	url = https://github.com/biopet/vcfstats.git
