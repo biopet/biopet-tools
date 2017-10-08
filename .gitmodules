@@ -16,3 +16,6 @@
 [submodule "vcfstats"]
 	path = vcfstats
 	url = https://github.com/biopet/vcfstats.git
+[submodule "bamstats"]
+	path = bamstats
+	url = https://github.com/biopet/bamstats

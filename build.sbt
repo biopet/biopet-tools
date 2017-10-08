@@ -9,6 +9,7 @@ lazy val biopetTools = (project in file("."))
   .aggregate(toolTemplate, fastqSplitter, squishbed, refflatsstats, vcfStats)
 
 lazy val vcfStats = project in file("vcfstats")
+lazy val bamStats = project in file("bamstats")
 lazy val refflatsstats = project in file("refflatsstats")
 lazy val squishbed = project in file("squishbed")
 lazy val toolTemplate = project in file("tool-template")
