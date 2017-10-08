@@ -19,3 +19,6 @@
 [submodule "bamstats"]
 	path = bamstats
 	url = https://github.com/biopet/bamstats
+[submodule "samplestsvtoconfig"]
+	path = samplestsvtoconfig
+	url = https://github.com/biopet/samplestsvtoconfig.git
