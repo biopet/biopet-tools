@@ -61,3 +61,7 @@
 [submodule "gtftorefflat"]
 	path = gtftorefflat
 	url = https://github.com/biopet/gtftorefflat.git
+[submodule "gvcftobed"]
+    branch = develop
+	path = gvcftobed
+	url = https://github.com/biopet/gvcftobed.git
