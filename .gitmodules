@@ -154,3 +154,7 @@
     branch = develop
 	path = wipereads
 	url = https://github.com/biopet/wipereads.git
+[submodule "xcnvtobed"]
+    branch = develop
+	path = xcnvtobed
+	url = https://github.com/biopet/xcnvtobed.git
