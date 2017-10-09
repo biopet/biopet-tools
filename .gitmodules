@@ -86,3 +86,7 @@
     branch = develop
 	path = gvcftobed
 	url = https://github.com/biopet/gvcftobed.git
+[submodule "krakenreporttojson"]
+    branch = develop
+	path = krakenreporttojson
+	url = https://github.com/biopet/krakenreporttojson.git
