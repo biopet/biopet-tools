@@ -1,64 +1,85 @@
 [submodule "tool-template"]
+    branch = develop
 	path = tool-template
 	url = https://github.com/biopet/tool-template.git
 [submodule "fastq-splitter"]
+    branch = develop
 	path = fastq-splitter
 	url = https://github.com/biopet/fastq-splitter.git
 [submodule "biopet-summary-tool"]
+    branch = develop
 	path = biopet-summary-tool
 	url = https://github.com/biopet/biopet-summary-tool.git
 [submodule "squishbed"]
+    branch = develop
 	path = squishbed
 	url = https://github.com/biopet/squishbed.git
 [submodule "refflatsstats"]
+    branch = develop
 	path = refflatsstats
 	url = https://github.com/biopet/refflatsstats.git
 [submodule "vcfstats"]
+    branch = develop
 	path = vcfstats
 	url = https://github.com/biopet/vcfstats.git
 [submodule "bamstats"]
+    branch = develop
 	path = bamstats
 	url = https://github.com/biopet/bamstats
 [submodule "samplestsvtoconfig"]
+    branch = develop
 	path = samplestsvtoconfig
 	url = https://github.com/biopet/samplestsvtoconfig.git
 [submodule "mergeotumaps"]
+    branch = develop
 	path = mergeotumaps
 	url = https://github.com/biopet/mergeotumaps.git
 [submodule "addgenesandtranscriptstogtf"]
+    branch = develop
 	path = addgenesandtranscriptstogtf
 	url = https://github.com/biopet/addgenesandtranscriptstogtf.git
 [submodule "annotatevcfwithbed"]
+    branch = develop
 	path = annotatevcfwithbed
 	url = https://github.com/biopet/annotatevcfwithbed.git
 [submodule "basecounter"]
+    branch = develop
 	path = basecounter
 	url = https://github.com/biopet/basecounter.git
 [submodule "bastygeneratefasta"]
+    branch = develop
 	path = bastygeneratefasta
 	url = https://github.com/biopet/bastygeneratefasta.git
 [submodule "countalleles"]
+    branch = develop
 	path = countalleles
 	url = https://github.com/biopet/countalleles.git
 [submodule "correctrefalleles"]
+    branch = develop
 	path = correctrefalleles
 	url = https://github.com/biopet/correctrefalleles.git
 [submodule "downloadncbiassembly"]
+    branch = develop
 	path = downloadncbiassembly
 	url = https://github.com/biopet/downloadncbiassembly.git
 [submodule "extractalignedfastq"]
+    branch = develop
 	path = extractalignedfastq
 	url = https://github.com/biopet/extractalignedfastq.git
 [submodule "extracttagsfromgtf"]
+    branch = develop
 	path = extracttagsfromgtf
 	url = https://github.com/biopet/extracttagsfromgtf.git
 [submodule "fastqsync"]
+    branch = develop
 	path = fastqsync
 	url = https://github.com/biopet/fastqsync.git
 [submodule "findoverlapmatch"]
+    branch = develop
 	path = findoverlapmatch
 	url = https://github.com/biopet/findoverlapmatch.git
 [submodule "gtftorefflat"]
+    branch = develop
 	path = gtftorefflat
 	url = https://github.com/biopet/gtftorefflat.git
 [submodule "gvcftobed"]
