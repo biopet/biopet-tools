@@ -8,6 +8,7 @@ resolvers += Resolver.mavenLocal
 lazy val biopetTools = (project in file("."))
   .aggregate(toolTemplate, fastqSplitter, squishbed, refflatsstats, vcfStats, bamStats, samplesTsvToConfig)
 
+lazy val fastqSync = project in file("fastqsync")
 lazy val samplesTsvToConfig = project in file("samplestsvtoconfig")
 lazy val vcfStats = project in file("vcfstats")
 lazy val bamStats = project in file("bamstats")
