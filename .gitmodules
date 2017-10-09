@@ -22,3 +22,42 @@
 [submodule "samplestsvtoconfig"]
 	path = samplestsvtoconfig
 	url = https://github.com/biopet/samplestsvtoconfig.git
+[submodule "mergeotumaps"]
+	path = mergeotumaps
+	url = https://github.com/biopet/mergeotumaps.git
+[submodule "addgenesandtranscriptstogtf"]
+	path = addgenesandtranscriptstogtf
+	url = https://github.com/biopet/addgenesandtranscriptstogtf.git
+[submodule "annotatevcfwithbed"]
+	path = annotatevcfwithbed
+	url = https://github.com/biopet/annotatevcfwithbed.git
+[submodule "basecounter"]
+	path = basecounter
+	url = https://github.com/biopet/basecounter.git
+[submodule "bastygeneratefasta"]
+	path = bastygeneratefasta
+	url = https://github.com/biopet/bastygeneratefasta.git
+[submodule "countalleles"]
+	path = countalleles
+	url = https://github.com/biopet/countalleles.git
+[submodule "correctrefalleles"]
+	path = correctrefalleles
+	url = https://github.com/biopet/correctrefalleles.git
+[submodule "downloadncbiassembly"]
+	path = downloadncbiassembly
+	url = https://github.com/biopet/downloadncbiassembly.git
+[submodule "extractalignedfastq"]
+	path = extractalignedfastq
+	url = https://github.com/biopet/extractalignedfastq.git
+[submodule "extracttagsfromgtf"]
+	path = extracttagsfromgtf
+	url = https://github.com/biopet/extracttagsfromgtf.git
+[submodule "fastqsync"]
+	path = fastqsync
+	url = https://github.com/biopet/fastqsync.git
+[submodule "findoverlapmatch"]
+	path = findoverlapmatch
+	url = https://github.com/biopet/findoverlapmatch.git
+[submodule "gtftorefflat"]
+	path = gtftorefflat
+	url = https://github.com/biopet/gtftorefflat.git
