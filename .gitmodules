@@ -90,3 +90,67 @@
     branch = develop
 	path = krakenreporttojson
 	url = https://github.com/biopet/krakenreporttojson.git
+[submodule "mpileuptovcf"]
+    branch = develop
+	path = mpileuptovcf
+	url = https://github.com/biopet/mpileuptovcf.git
+[submodule "multicoverage"]
+    branch = develop
+	path = multicoverage
+	url = https://github.com/biopet/multicoverage.git
+[submodule "ncbireporttocontigmap"]
+    branch = develop
+	path = ncbireporttocontigmap
+	url = https://github.com/biopet/ncbireporttocontigmap.git
+[submodule "replacecontigsgtffile"]
+    branch = develop
+	path = replacecontigsgtffile
+	url = https://github.com/biopet/replacecontigsgtffile.git
+[submodule "replacecontigsvcffile"]
+    branch = develop
+	path = replacecontigsvcffile
+	url = https://github.com/biopet/replacecontigsvcffile.git
+[submodule "rebuildcontigmap"]
+    branch = develop
+	path = rebuildcontigmap
+	url = https://github.com/biopet/rebuildcontigmap.git
+[submodule "seqstat"]
+    branch = develop
+	path = seqstat
+	url = https://github.com/biopet/seqstat.git
+[submodule "snptesttovcf"]
+    branch = develop
+	path = snptesttovcf
+	url = https://github.com/biopet/snptesttovcf.git
+[submodule "validateannotation"]
+    branch = develop
+	path = validateannotation
+	url = https://github.com/biopet/validateannotation.git
+[submodule "validatefastq"]
+    branch = develop
+	path = validatefastq
+	url = https://github.com/biopet/validatefastq.git
+[submodule "validatevcf"]
+    branch = develop
+	path = validatevcf
+	url = https://github.com/biopet/validatevcf.git
+[submodule "vcffilter"]
+    branch = develop
+	path = vcffilter
+	url = https://github.com/biopet/vcffilter.git
+[submodule "vcftotsv"]
+    branch = develop
+	path = vcftotsv
+	url = https://github.com/biopet/vcftotsv.git
+[submodule "vcfwithvcf"]
+    branch = develop
+	path = vcfwithvcf
+	url = https://github.com/biopet/vcfwithvcf.git
+[submodule "vepnormalizer"]
+    branch = develop
+	path = vepnormalizer
+	url = https://github.com/biopet/vepnormalizer.git
+[submodule "wipereads"]
+    branch = develop
+	path = wipereads
+	url = https://github.com/biopet/wipereads.git
