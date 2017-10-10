@@ -6,7 +6,7 @@ scalaVersion := "2.11.11"
 resolvers += Resolver.mavenLocal
 
 lazy val biopetTools = (project in file("."))
-  .aggregate(toolTemplate, fastqSplitter, squishbed, refflatsstats, vcfStats, bamStats, samplesTsvToConfig)
+  .aggregate(toolTemplate, fastqSplitter, squishbed, refflatsstats, vcfStats, bamStats, samplesTsvToConfig, fastqSync)
 
 lazy val fastqSync = project in file("fastqsync")
 lazy val samplesTsvToConfig = project in file("samplestsvtoconfig")
