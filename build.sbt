@@ -5,6 +5,8 @@ scalaVersion := "2.11.11"
 
 resolvers += Resolver.mavenLocal
 
+fork := true
+
 lazy val biopetTools = (project in file("."))
   .aggregate(
       AddGenesAndTranscriptsToGtf,
