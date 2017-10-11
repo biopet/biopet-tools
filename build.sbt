@@ -12,6 +12,7 @@ lazy val biopetTools = (project in file("."))
       AddGenesAndTranscriptsToGtf,
       AnnotateVcfWithBed,
       BamStats,
+      BaseCounter,
       BastyGenerateFasta,
       CorrectRefalleles,
       CountAlleles,
@@ -34,6 +35,7 @@ lazy val biopetTools = (project in file("."))
       ReplaceContigsVcffile,
       SamplesTsvToConfig,
       SnptestToVcf,
+      SeqStat,
       Squishbed,
       ToolTemplate,
       ValidateAnnotation,
@@ -52,6 +54,7 @@ lazy val biopetTools = (project in file("."))
 lazy val AddGenesAndTranscriptsToGtf = project in file("addgenesandtranscriptstogtf")
 lazy val AnnotateVcfWithBed = project in file("annotatevcfwithbed")
 lazy val BamStats = project in file("bamstats")
+lazy val BaseCounter = project in file("basecounter")
 lazy val BastyGenerateFasta = project in file("bastygeneratefasta")
 lazy val CorrectRefalleles = project in file("correctrefalleles")
 lazy val CountAlleles = project in file("countalleles")
@@ -74,6 +77,7 @@ lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
 lazy val ReplaceContigsVcffile = project in file("replacecontigsvcffile")
 lazy val SamplesTsvToConfig = project in file("samplestsvtoconfig")
 lazy val SnptestToVcf = project in file("snptesttovcf")
+lazy val SeqStat = project in file("seqstat")
 lazy val Squishbed = project in file("squishbed")
 lazy val ToolTemplate = project in file("tool-template")
 lazy val ValidateAnnotation = project in file("validateannotation")
