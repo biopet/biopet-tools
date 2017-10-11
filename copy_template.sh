@@ -31,7 +31,7 @@ sed "s/object ToolTemplate/object $NAME/" \
  > $OUTPUT_DIR/src/main/scala/nl/biopet/tools/$PACKAGE/$NAME.scala
 
 sed "s/package nl.biopet.tools.template/package nl.biopet.tools.$PACKAGE/" $TEMPLATE_DIR/src/test/scala/nl/biopet/tools/template/ToolTemplateTest.scala | \
-sed "s/class ToolTemplateTest/object ${NAME}Test/" | \
+sed "s/class ToolTemplateTest/class ${NAME}Test/" | \
 sed "s/ToolTemplate.main/$NAME.main/" \
  > $OUTPUT_DIR/src/test/scala/nl/biopet/tools/$PACKAGE/${NAME}Test.scala
 
