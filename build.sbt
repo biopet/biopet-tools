@@ -50,7 +50,6 @@ lazy val biopetTools = (project in file("."))
       XcnvToBed
   )
 
-//lazy val biopetSummaryTool = project in file("biopet-summary-tool")
 lazy val AddGenesAndTranscriptsToGtf = project in file("addgenesandtranscriptstogtf")
 lazy val AnnotateVcfWithBed = project in file("annotatevcfwithbed")
 lazy val BamStats = project in file("bamstats")

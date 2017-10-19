@@ -6,10 +6,6 @@
     branch = develop
 	path = fastq-splitter
 	url = https://github.com/biopet/fastq-splitter.git
-[submodule "biopet-summary-tool"]
-    branch = develop
-	path = biopet-summary-tool
-	url = https://github.com/biopet/biopet-summary-tool.git
 [submodule "squishbed"]
     branch = develop
 	path = squishbed
