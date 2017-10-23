@@ -1,5 +1,5 @@
 organization := "com.github.biopet"
-name := "biopet-tools"
+name := "tools"
 
 scalaVersion := "2.11.11"
 
