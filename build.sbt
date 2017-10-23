@@ -3,11 +3,11 @@ name := "tools"
 
 scalaVersion := "2.11.11"
 
-resolvers += Resolver.mavenLocal
+resolvers += Resolver.sonatypeRepo("snapshots")
 
 fork := true
 
-lazy val biopetTools = (project in file("."))
+lazy val tools = (project in file("."))
   .aggregate(
       AddGenesAndTranscriptsToGtf,
       AnnotateVcfWithBed,
