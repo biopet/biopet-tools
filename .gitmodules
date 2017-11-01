@@ -154,3 +154,6 @@
     branch = develop
 	path = xcnvtobed
 	url = https://github.com/biopet/xcnvtobed.git
+[submodule "pipelinestatus"]
+	path = pipelinestatus
+	url = https://github.com/biopet/pipelinestatus.git

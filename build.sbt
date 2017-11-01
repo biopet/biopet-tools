@@ -29,6 +29,7 @@ lazy val tools = (project in file("."))
       MpileupToVcf,
       MultiCoverage,
       NcbiReporttoContigMap,
+      PipelineStatus,
       RebuildContigmap,
       RefflatsStats,
       ReplaceContigsGtffile,
@@ -70,6 +71,7 @@ lazy val MergeOtuMaps = project in file("mergeotumaps")
 lazy val MpileupToVcf = project in file("mpileuptovcf")
 lazy val MultiCoverage = project in file("multicoverage")
 lazy val NcbiReporttoContigMap = project in file("ncbireporttocontigmap")
+lazy val PipelineStatus = project in file("pipelinestatus")
 lazy val RebuildContigmap = project in file("rebuildcontigmap")
 lazy val RefflatsStats = project in file("refflatsstats")
 lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
