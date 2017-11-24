@@ -157,3 +157,6 @@
 [submodule "pipelinestatus"]
 	path = pipelinestatus
 	url = https://github.com/biopet/pipelinestatus.git
+[submodule "downsampleregions"]
+	path = downsampleregions
+	url = https://github.com/biopet/downsampleregions.git
