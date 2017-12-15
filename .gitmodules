@@ -160,3 +160,6 @@
 [submodule "downsampleregions"]
 	path = downsampleregions
 	url = https://github.com/biopet/downsampleregions.git
+[submodule "digenicsearch"]
+	path = digenicsearch
+	url = https://github.com/biopet/digenicsearch.git

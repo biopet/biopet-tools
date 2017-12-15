@@ -16,6 +16,7 @@ lazy val tools = (project in file("."))
       BastyGenerateFasta,
       CorrectRefalleles,
       CountAlleles,
+      DigenicSearch,
       DownloadNcbiAssembly,
       DownsampleRegions,
       ExtractAlignedFastq,
@@ -59,6 +60,7 @@ lazy val BaseCounter = project in file("basecounter")
 lazy val BastyGenerateFasta = project in file("bastygeneratefasta")
 lazy val CorrectRefalleles = project in file("correctrefalleles")
 lazy val CountAlleles = project in file("countalleles")
+lazy val DigenicSearch = project in file("digenicsearch")
 lazy val DownloadNcbiAssembly = project in file("downloadncbiassembly")
 lazy val DownsampleRegions = project in file("downsampleregions")
 lazy val ExtractAlignedFastq = project in file("extractalignedfastq")
