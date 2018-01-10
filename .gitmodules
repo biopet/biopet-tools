@@ -155,11 +155,18 @@
 	path = xcnvtobed
 	url = https://github.com/biopet/xcnvtobed.git
 [submodule "pipelinestatus"]
+    branch = develop
 	path = pipelinestatus
 	url = https://github.com/biopet/pipelinestatus.git
 [submodule "downsampleregions"]
+    branch = develop
 	path = downsampleregions
 	url = https://github.com/biopet/downsampleregions.git
 [submodule "digenicsearch"]
+    branch = develop
 	path = digenicsearch
 	url = https://github.com/biopet/digenicsearch.git
+[submodule "extractadaptersfastqc"]
+    branch = develop
+	path = extractadaptersfastqc
+	url = https://github.com/biopet/extractadaptersfastqc.git
