@@ -32,6 +32,7 @@ lazy val tools = (project in file("."))
       GtftoRefflat,
       GvcfToBed,
       KrakenReportToJson,
+      MergeSv,
       MergeOtuMaps,
       MpileupToVcf,
       MultiCoverage,
@@ -78,6 +79,7 @@ lazy val GtftoRefflat = project in file("gtftorefflat")
 lazy val GvcfToBed = project in file("gvcftobed")
 lazy val KrakenReportToJson = project in file("krakenreporttojson")
 lazy val MergeOtuMaps = project in file("mergeotumaps")
+lazy val MergeSv = project in file("mergesv")
 lazy val MpileupToVcf = project in file("mpileuptovcf")
 lazy val MultiCoverage = project in file("multicoverage")
 lazy val NcbiReporttoContigMap = project in file("ncbireporttocontigmap")
