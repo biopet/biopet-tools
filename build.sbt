@@ -1,9 +1,13 @@
 organization := "com.github.biopet"
-name := "tools"
+name := "Tools"
 
 scalaVersion := "2.11.11"
 
-resolvers += Resolver.sonatypeRepo("snapshots")
+biopetUrlName := "tools"
+
+biopetIsTool := false
+
+developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@gmail.com", url=url("https://github.com/ffinfo"))
 
 fork := true
 
