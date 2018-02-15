@@ -171,5 +171,10 @@
 	path = extractadaptersfastqc
 	url = https://github.com/biopet/extractadaptersfastqc.git
 [submodule "mergesv"]
+    branch = develop
 	path = mergesv
 	url = https://github.com/biopet/mergesv.git
+[submodule "toolspackage"]
+    branch = develop
+	path = toolspackage
+	url = https://github.com/biopet/toolspackage.git

@@ -11,8 +11,12 @@ developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@
 
 fork := true
 
-lazy val tools = (project in file("."))
-  .aggregate(
+lazy val ToolsPackage = project in file("toolspackage")
+
+lazy val tools = (project in file(".")).aggregate(toolList:_*)
+
+lazy val toolList = Seq(
+      ToolsPackage,
       AddGenesAndTranscriptsToGtf,
       AnnotateVcfWithBed,
       BamStats,
@@ -57,7 +61,7 @@ lazy val tools = (project in file("."))
       VepNormalizer,
       WipeReads,
       XcnvToBed
-  )
+).map(_.project)
 
 lazy val AddGenesAndTranscriptsToGtf = project in file("addgenesandtranscriptstogtf")
 lazy val AnnotateVcfWithBed = project in file("annotatevcfwithbed")
