@@ -1,4 +1,6 @@
 .idea/
 target/
 test-output/
+sbt.log
 .DS_Store
+project/project
