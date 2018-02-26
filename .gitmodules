@@ -178,3 +178,6 @@
     branch = develop
 	path = toolspackage
 	url = https://github.com/biopet/toolspackage.git
+[submodule "sampleconfig"]
+	path = sampleconfig
+	url = https://github.com/biopet/sampleconfig.git

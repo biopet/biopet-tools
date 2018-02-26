@@ -7,63 +7,70 @@ biopetUrlName := "tools"
 
 biopetIsTool := false
 
-developers += Developer(id="ffinfo", name="Peter van 't Hof", email="pjrvanthof@gmail.com", url=url("https://github.com/ffinfo"))
+parallelExecution in Test := false
 
-fork := true
+developers += Developer(id = "ffinfo",
+                        name = "Peter van 't Hof",
+                        email = "pjrvanthof@gmail.com",
+                        url = url("https://github.com/ffinfo"))
+
+fork in test := true
 
 lazy val ToolsPackage = project in file("toolspackage")
 
-lazy val tools = (project in file(".")).aggregate(toolList:_*)
+lazy val tools = (project in file(".")).aggregate(toolList: _*)
 
 lazy val toolList = Seq(
-      ToolsPackage,
-      AddGenesAndTranscriptsToGtf,
-      AnnotateVcfWithBed,
-      BamStats,
-      BaseCounter,
-      BastyGenerateFasta,
-      CorrectRefalleles,
-      CountAlleles,
-      DigenicSearch,
-      DownloadNcbiAssembly,
-      DownsampleRegions,
-      ExtractAdaptersFastqc,
-      ExtractAlignedFastq,
-      ExtractTagsFromGtf,
-      FastqSplitter,
-      FastqSync,
-      FindOverlapMatch,
-      GtftoRefflat,
-      GvcfToBed,
-      KrakenReportToJson,
-      MergeSv,
-      MergeOtuMaps,
-      MpileupToVcf,
-      MultiCoverage,
-      NcbiReporttoContigMap,
-      PipelineStatus,
-      RebuildContigmap,
-      RefflatsStats,
-      ReplaceContigsGtffile,
-      ReplaceContigsVcffile,
-      SamplesTsvToConfig,
-      SnptestToVcf,
-      SeqStat,
-      Squishbed,
-      ToolTemplate,
-      ValidateAnnotation,
-      ValidateFastq,
-      ValidateVcf,
-      VcfFilter,
-      VcfStats,
-      VcfToTsv,
-      VcfWithVcf,
-      VepNormalizer,
-      WipeReads,
-      XcnvToBed
+  ToolsPackage,
+  AddGenesAndTranscriptsToGtf,
+  AnnotateVcfWithBed,
+  BamStats,
+  BaseCounter,
+  BastyGenerateFasta,
+  CorrectRefalleles,
+  CountAlleles,
+  DigenicSearch,
+  DownloadNcbiAssembly,
+  DownsampleRegions,
+  ExtractAdaptersFastqc,
+  ExtractAlignedFastq,
+  ExtractTagsFromGtf,
+  FastqSplitter,
+  FastqSync,
+  FindOverlapMatch,
+  GtftoRefflat,
+  GvcfToBed,
+  KrakenReportToJson,
+  MergeSv,
+  MergeOtuMaps,
+  MpileupToVcf,
+  MultiCoverage,
+  NcbiReporttoContigMap,
+  PipelineStatus,
+  RebuildContigmap,
+  RefflatsStats,
+  ReplaceContigsGtffile,
+  ReplaceContigsVcffile,
+  SampleConfig,
+  SamplesTsvToConfig,
+  SnptestToVcf,
+  SeqStat,
+  Squishbed,
+  ToolTemplate,
+  ValidateAnnotation,
+  ValidateFastq,
+  ValidateVcf,
+  VcfFilter,
+  VcfStats,
+  VcfToTsv,
+  VcfWithVcf,
+  VepNormalizer,
+  WipeReads,
+  XcnvToBed
 ).map(_.project)
 
-lazy val AddGenesAndTranscriptsToGtf = project in file("addgenesandtranscriptstogtf")
+lazy val AddGenesAndTranscriptsToGtf = project in file(
+  "addgenesandtranscriptstogtf")
 lazy val AnnotateVcfWithBed = project in file("annotatevcfwithbed")
 lazy val BamStats = project in file("bamstats")
 lazy val BaseCounter = project in file("basecounter")
@@ -92,6 +99,7 @@ lazy val RebuildContigmap = project in file("rebuildcontigmap")
 lazy val RefflatsStats = project in file("refflatsstats")
 lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
 lazy val ReplaceContigsVcffile = project in file("replacecontigsvcffile")
+lazy val SampleConfig = project in file("sampleconfig")
 lazy val SamplesTsvToConfig = project in file("samplestsvtoconfig")
 lazy val SnptestToVcf = project in file("snptesttovcf")
 lazy val SeqStat = project in file("seqstat")
