@@ -1,7 +1,7 @@
 organization := "com.github.biopet"
 name := "Tools"
 
-scalaVersion := "2.11.11"
+scalaVersion := "2.11.12"
 
 biopetUrlName := "tools"
 
