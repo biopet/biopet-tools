@@ -10,10 +10,6 @@
     branch = develop
 	path = squishbed
 	url = https://github.com/biopet/squishbed.git
-[submodule "refflatsstats"]
-    branch = develop
-	path = refflatsstats
-	url = https://github.com/biopet/refflatsstats.git
 [submodule "vcfstats"]
     branch = develop
 	path = vcfstats
@@ -179,5 +175,10 @@
 	path = toolspackage
 	url = https://github.com/biopet/toolspackage.git
 [submodule "sampleconfig"]
+    branch = develop
 	path = sampleconfig
 	url = https://github.com/biopet/sampleconfig.git
+[submodule "refflatstats"]
+    branch = develop
+	path = refflatstats
+	url = https://github.com/biopet/refflatstats.git

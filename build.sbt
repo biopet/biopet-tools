@@ -48,7 +48,7 @@ lazy val toolList = Seq(
   NcbiReporttoContigMap,
   PipelineStatus,
   RebuildContigmap,
-  RefflatsStats,
+  RefflatStats,
   ReplaceContigsGtffile,
   ReplaceContigsVcffile,
   SampleConfig,
@@ -96,7 +96,7 @@ lazy val MultiCoverage = project in file("multicoverage")
 lazy val NcbiReporttoContigMap = project in file("ncbireporttocontigmap")
 lazy val PipelineStatus = project in file("pipelinestatus")
 lazy val RebuildContigmap = project in file("rebuildcontigmap")
-lazy val RefflatsStats = project in file("refflatsstats")
+lazy val RefflatStats = project in file("refflatstats")
 lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
 lazy val ReplaceContigsVcffile = project in file("replacecontigsvcffile")
 lazy val SampleConfig = project in file("sampleconfig")
