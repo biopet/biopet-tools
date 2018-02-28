@@ -2,10 +2,6 @@
     branch = develop
 	path = tool-template
 	url = https://github.com/biopet/tool-template.git
-[submodule "fastq-splitter"]
-    branch = develop
-	path = fastq-splitter
-	url = https://github.com/biopet/fastq-splitter.git
 [submodule "squishbed"]
     branch = develop
 	path = squishbed
@@ -182,3 +178,7 @@
     branch = develop
 	path = refflatstats
 	url = https://github.com/biopet/refflatstats.git
+[submodule "fastqsplitter"]
+    branch = develop
+	path = fastqsplitter
+	url = https://github.com/biopet/fastqsplitter.git
