@@ -182,3 +182,6 @@
     branch = develop
 	path = fastqsplitter
 	url = https://github.com/biopet/fastqsplitter.git
+[submodule "scatterregions"]
+	path = scatterregions
+	url = https://github.com/biopet/scatterregions.git

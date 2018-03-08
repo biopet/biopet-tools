@@ -53,6 +53,7 @@ lazy val toolList = Seq(
   ReplaceContigsVcffile,
   SampleConfig,
   SamplesTsvToConfig,
+  ScatterRegions,
   SnptestToVcf,
   SeqStat,
   Squishbed,
@@ -101,6 +102,7 @@ lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
 lazy val ReplaceContigsVcffile = project in file("replacecontigsvcffile")
 lazy val SampleConfig = project in file("sampleconfig")
 lazy val SamplesTsvToConfig = project in file("samplestsvtoconfig")
+lazy val ScatterRegions = project in file("scatterregions")
 lazy val SnptestToVcf = project in file("snptesttovcf")
 lazy val SeqStat = project in file("seqstat")
 lazy val Squishbed = project in file("squishbed")
