@@ -185,3 +185,6 @@
 [submodule "scatterregions"]
 	path = scatterregions
 	url = https://github.com/biopet/scatterregions.git
+[submodule "bamtorawvcf"]
+	path = bamtorawvcf
+	url = https://github.com/biopet/bamtorawvcf.git
