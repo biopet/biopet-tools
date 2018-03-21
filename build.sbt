@@ -21,11 +21,11 @@ lazy val ToolsPackage = project in file("toolspackage")
 lazy val tools = (project in file(".")).aggregate(toolList: _*)
 
 lazy val toolList = Seq(
+  TenxKit,
   ToolsPackage,
   AddGenesAndTranscriptsToGtf,
   AnnotateVcfWithBed,
   BamStats,
-  BamToRawVcf,
   BaseCounter,
   BastyGenerateFasta,
   CorrectRefalleles,
@@ -75,7 +75,7 @@ lazy val AddGenesAndTranscriptsToGtf = project in file(
   "addgenesandtranscriptstogtf")
 lazy val AnnotateVcfWithBed = project in file("annotatevcfwithbed")
 lazy val BamStats = project in file("bamstats")
-lazy val BamToRawVcf = project in file("bamtorawvcf")
+lazy val TenxKit = project in file("10xkit")
 lazy val BaseCounter = project in file("basecounter")
 lazy val BastyGenerateFasta = project in file("bastygeneratefasta")
 lazy val CorrectRefalleles = project in file("correctrefalleles")
