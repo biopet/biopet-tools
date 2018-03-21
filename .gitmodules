@@ -183,8 +183,14 @@
 	path = fastqsplitter
 	url = https://github.com/biopet/fastqsplitter.git
 [submodule "scatterregions"]
+    branch = develop
 	path = scatterregions
 	url = https://github.com/biopet/scatterregions.git
 [submodule "bamtorawvcf"]
+    branch = develop
 	path = bamtorawvcf
 	url = https://github.com/biopet/bamtorawvcf.git
+[submodule "10xkit"]
+    branch = develop
+	path = 10xkit
+	url = https://github.com/biopet/10xkit.git
