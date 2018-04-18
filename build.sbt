@@ -57,6 +57,7 @@ lazy val toolList = Seq(
   ScatterRegions,
   SnptestToVcf,
   SeqStat,
+  SparkTest,
   Squishbed,
   ToolTemplate,
   ValidateAnnotation,
@@ -107,6 +108,7 @@ lazy val SamplesTsvToConfig = project in file("samplestsvtoconfig")
 lazy val ScatterRegions = project in file("scatterregions")
 lazy val SnptestToVcf = project in file("snptesttovcf")
 lazy val SeqStat = project in file("seqstat")
+lazy val SparkTest = project in file("spark-test")
 lazy val Squishbed = project in file("squishbed")
 lazy val ToolTemplate = project in file("tool-template")
 lazy val ValidateAnnotation = project in file("validateannotation")
