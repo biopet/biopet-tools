@@ -194,3 +194,6 @@
     branch = develop
 	path = 10xkit
 	url = https://github.com/biopet/10xkit.git
+[submodule "spark-test"]
+	path = spark-test
+	url = https://github.com/biopet/spark-test.git
