@@ -194,3 +194,7 @@
     branch = develop
 	path = 10xkit
 	url = https://github.com/biopet/10xkit.git
+[submodule "filterseattleseq"]
+    branch = develop
+	path = filterseattleseq
+	url = https://github.com/biopet/filterseattleseq.git
