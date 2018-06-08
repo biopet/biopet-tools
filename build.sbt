@@ -52,7 +52,7 @@ lazy val toolList = Seq(
   RefflatStats,
   ReplaceContigsGtffile,
   ReplaceContigsVcffile,
-  FilterSeattleSeq,
+  SeattleSeqKit,
   SampleConfig,
   SamplesTsvToConfig,
   ScatterRegions,
@@ -103,7 +103,7 @@ lazy val RebuildContigmap = project in file("rebuildcontigmap")
 lazy val RefflatStats = project in file("refflatstats")
 lazy val ReplaceContigsGtffile = project in file("replacecontigsgtffile")
 lazy val ReplaceContigsVcffile = project in file("replacecontigsvcffile")
-lazy val FilterSeattleSeq = project in file("filterseattleseq")
+lazy val SeattleSeqKit = project in file("seattleseqkit")
 lazy val SampleConfig = project in file("sampleconfig")
 lazy val SamplesTsvToConfig = project in file("samplestsvtoconfig")
 lazy val ScatterRegions = project in file("scatterregions")
