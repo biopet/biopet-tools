@@ -198,3 +198,7 @@
     branch = develop
 	path = seattleseqkit
 	url = https://github.com/biopet/seattleseqkit.git
+[submodule "findcompound"]
+    branch = develop
+	path = findcompound
+    url = https://github.com/biopet/findcompound.git

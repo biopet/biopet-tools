@@ -38,6 +38,7 @@ lazy val toolList = Seq(
   ExtractTagsFromGtf,
   FastqSplitter,
   FastqSync,
+  FindCompound,
   FindOverlapMatch,
   GtftoRefflat,
   GvcfToBed,
@@ -89,6 +90,7 @@ lazy val ExtractAlignedFastq = project in file("extractalignedfastq")
 lazy val ExtractTagsFromGtf = project in file("extracttagsfromgtf")
 lazy val FastqSplitter = project in file("fastqsplitter")
 lazy val FastqSync = project in file("fastqsync")
+lazy val FindCompound = project in file("findcompound")
 lazy val FindOverlapMatch = project in file("findoverlapmatch")
 lazy val GtftoRefflat = project in file("gtftorefflat")
 lazy val GvcfToBed = project in file("gvcftobed")
